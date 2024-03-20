@@ -1,0 +1,57 @@
+.item-head {
+  grid-area: header;
+  background-color: #515252;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(254, 254, 254);
+
+}
+.item-menu {
+  grid-area: menu;
+  background-color: #242424;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: rgb(254, 254, 254);
+
+}
+.item-screen {
+  grid-area: main;
+  background-color: #242424;
+  text-align: center;
+}
+.item-vlist {
+  grid-area: right;
+  background-color: #242424;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+.item-vlist ol li a {
+  text-decoration: none;
+  color: #f3efef;
+  font-size: 20px;
+  
+
+}
+.item-footer {
+  grid-area: footer;
+  background-color: #dd2233;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "menu main main main right right"
+    "menu footer footer footer footer footer";
+  gap: .20px;
+  padding: 1%;
+
+}
+.course-header{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+color: rgb(254, 254, 254);
+}
